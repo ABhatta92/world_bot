@@ -1,0 +1,98 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+credentials/
+service-account*.json
+credentials*.json
+token.json
+client_secret*.json
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.hypothesis/
+
+# Build and packaging artifacts
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+junit.xml
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+
+# Local databases and generated data
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.duckdb
+*.csv
+
+# Model artifacts and caches
+.cache/
+.huggingface/
+ollama_models/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating system
+Thumbs.db
+Desktop.ini
+
+# Local environment and tooling
+.python-version.local
+.direnv/
+.envrc.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
