@@ -1,0 +1,28 @@
+[project]
+name = "world-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ABhatta92", email = "abhiroop2792@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "feedparser>=6.0.14",
+    "google-adk>=2.12.0",
+    "google-api-python-client>=2.201.0",
+    "google-auth>=2.62.0",
+    "google-auth-httplib2>=0.4.4",
+    "google-auth-oauthlib>=1.5.0",
+    "google-cloud-bigquery>=3.46.2",
+    "litellm>=1.106.0",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+world-bot = "world_bot:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
