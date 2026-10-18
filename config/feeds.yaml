@@ -1,0 +1,19 @@
+feeds:
+  - name: fox_world
+    perspective: right
+    url: https://moxie.foxnews.com/google-publisher/world.xml
+    enabled: true
+
+  - name: bbc_world
+    perspective: center
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    enabled: true
+
+  - name: guardian_world
+    perspective: left
+    url: https://www.theguardian.com/world/rss
+    enabled: true
+
+defaults:
+  max_articles_per_feed: 10
+  request_timeout_seconds: 15
