@@ -96,3 +96,6 @@ tmp/
 temp/
 *.tmp
 *.bak
+
+tests/
+queries/

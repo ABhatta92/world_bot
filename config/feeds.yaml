@@ -1,17 +1,82 @@
+
 feeds:
-  - name: fox_world
+  # RIGHT
+  - name: opindia
     perspective: right
-    url: https://moxie.foxnews.com/google-publisher/world.xml
+    url: https://www.opindia.com/feed/
     enabled: true
 
-  - name: bbc_world
+  - name: swarajya
+    perspective: right
+    url: https://swarajyamag.com/feed
+    enabled: true
+
+  - name: organizer
+    perspective: right
+    url: https://organiser.org/feed/
+    enabled: true
+
+  - name: india_today
+    perspective: right
+    url: https://www.indiatoday.in/rss/home
+    enabled: true
+
+  - name: the_print
+    perspective: right
+    url: https://theprint.in/feed/
+    enabled: true
+
+  # CENTRE
+  - name: the_hindu
     perspective: center
-    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    url: https://www.thehindu.com/news/national/feeder/default.rss
     enabled: true
 
-  - name: guardian_world
+  - name: indian_express
+    perspective: center
+    url: https://indianexpress.com/section/india/feed/
+    enabled: true
+
+  - name: ndtv
+    perspective: center
+    url: https://feeds.feedburner.com/ndtvnews-top-stories
+    enabled: true
+
+  - name: hindustan_times
+    perspective: center
+    url: https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml
+    enabled: true
+
+  - name: times_of_india
+    perspective: center
+    url: https://timesofindia.indiatimes.com/rssfeedstopstories.cms
+    enabled: true
+
+  # LEFT
+
+  - name: newslaundry
     perspective: left
-    url: https://www.theguardian.com/world/rss
+    url: https://www.newslaundry.com/feed
+    enabled: true
+
+  - name: maktoob_media
+    perspective: left
+    url: https://maktoobmedia.com/feed/
+    enabled: true
+
+  - name: the_wire
+    perspective: left
+    url: https://science.thewire.in/feed/
+    enabled: true
+
+  - name: scroll
+    perspective: left
+    url: https://feeds.feedburner.com/ScrollinArticles.rss
+    enabled: true
+
+  - name: national_herald
+    perspective: left
+    url: https://www.nationalheraldindia.com/stories.rss?section=india
     enabled: true
 
 defaults:
